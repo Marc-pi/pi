@@ -3,9 +3,7 @@
 namespace Stripe;
 
 /**
- * Class UsageRecord
- *
- * @package Stripe
+ * Class UsageRecord.
  *
  * @property string $id
  * @property string $object
@@ -16,5 +14,5 @@ namespace Stripe;
  */
 class UsageRecord extends ApiResource
 {
-    const OBJECT_NAME = "usage_record";
+    const OBJECT_NAME = 'usage_record';
 }

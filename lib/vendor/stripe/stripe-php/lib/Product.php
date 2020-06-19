@@ -3,17 +3,18 @@
 namespace Stripe;
 
 /**
- * Store representations of products you sell in <code>Product</code> objects, used
- * in conjunction with <a href="https://stripe.com/docs/api#skus">SKUs</a>.
- * Products may be physical goods, to be shipped, or digital.
+ * Products describe the specific goods or services you offer to your customers.
+ * For example, you might offer a Standard and Premium version of your goods or
+ * service; each version would be a separate Product. They can be used in
+ * conjunction with <a href="https://stripe.com/docs/api#prices">Prices</a> to
+ * configure pricing in Checkout and Subscriptions.
  *
- * Documentation on <code>Product</code>s for use with <code>Subscription</code>s
- * can be found at <a
- * href="https://stripe.com/docs/api#service_products">Subscription Products</a>.
- *
- * Related guide: <a
- * href="https://stripe.com/docs/orders#define-products-skus">Define products and
- * SKUs</a>
+ * Related guides: <a
+ * href="https://stripe.com/docs/billing/subscriptions/set-up-subscription">Set up
+ * a subscription</a> or accept <a
+ * href="https://stripe.com/docs/payments/checkout/client#create-products">one-time
+ * payments with Checkout</a> and more about <a
+ * href="https://stripe.com/docs/billing/prices-guide">Products and Prices</a>
  *
  * @property string $id Unique identifier for the object.
  * @property string $object String representing the object's type. Objects of the same type share the same value.
@@ -23,7 +24,7 @@ namespace Stripe;
  * @property int $created Time at which the object was created. Measured in seconds since the Unix epoch.
  * @property string[] $deactivate_on An array of connect application identifiers that cannot purchase this product. Only applicable to products of <code>type=good</code>.
  * @property null|string $description The product's description, meant to be displayable to the customer. Use this field to optionally store a long form explanation of the product being sold for your own rendering purposes.
- * @property string[] $images A list of up to 8 URLs of images for this product, meant to be displayable to the customer. Only applicable to products of <code>type=good</code>.
+ * @property string[] $images A list of up to 8 URLs of images for this product, meant to be displayable to the customer.
  * @property bool $livemode Has the value <code>true</code> if the object exists in live mode or the value <code>false</code> if the object exists in test mode.
  * @property \Stripe\StripeObject $metadata Set of key-value pairs that you can attach to an object. This can be useful for storing additional information about the object in a structured format.
  * @property string $name The product's name, meant to be displayable to the customer. Whenever this product is sold via a subscription, name will show up on associated invoice line item descriptions.

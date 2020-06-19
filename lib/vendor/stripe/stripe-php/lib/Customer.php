@@ -8,8 +8,9 @@ namespace Stripe;
  * allows you to create, delete, and update your customers. You can retrieve
  * individual customers as well as a list of all your customers.
  *
- * Related guide: <a href="https://stripe.com/docs/saving-cards">Saving Cards with
- * Customers</a>.
+ * Related guide: <a
+ * href="https://stripe.com/docs/payments/save-during-payment">Save a card during
+ * payment</a>.
  *
  * @property string $id Unique identifier for the object.
  * @property string $object String representing the object's type. Objects of the same type share the same value.
@@ -27,6 +28,7 @@ namespace Stripe;
  * @property bool $livemode Has the value <code>true</code> if the object exists in live mode or the value <code>false</code> if the object exists in test mode.
  * @property \Stripe\StripeObject $metadata Set of key-value pairs that you can attach to an object. This can be useful for storing additional information about the object in a structured format.
  * @property null|string $name The customer's full name or business name.
+ * @property int $next_invoice_sequence The suffix of the customer's next invoice number, e.g., 0001.
  * @property null|string $phone The customer's phone number.
  * @property null|string[] $preferred_locales The customer's preferred locales (languages), ordered by preference.
  * @property null|\Stripe\StripeObject $shipping Mailing and shipping address for the customer. Appears on invoices emailed to this customer.

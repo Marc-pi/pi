@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pi-user\n"
-"POT-Creation-Date: 2020-01-07 22:24+0100\n"
-"PO-Revision-Date: 2020-01-07 22:24+0100\n"
+"POT-Creation-Date: 2020-07-04 17:08+0200\n"
+"PO-Revision-Date: 2020-07-04 17:09+0200\n"
 "Last-Translator: Marc Desrousseaux\n"
 "Language-Team: Marc / Pi-Team\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 2.3.1\n"
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-Basepath: ../..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -115,25 +115,25 @@ msgstr "Tableau de Bord"
 
 #: src/Api/Breadcrumbs.php:64 src/Controller/Front/AccountController.php:182
 #: template/front/account-index.phtml:13
-#: template/front/profile-sidebar.phtml:107
+#: template/front/profile-sidebar.phtml:108
 msgid "Account settings"
 msgstr "Paramétrages du compte"
 
 #: src/Api/Breadcrumbs.php:77 src/Controller/Front/AvatarController.php:183
 #: template/front/avatar-index.phtml:47
-#: template/front/profile-sidebar.phtml:115
+#: template/front/profile-sidebar.phtml:116
 #: template/front/profile-topbar.phtml:157
 msgid "Change avatar"
 msgstr "Modifier sa photo"
 
 #: src/Api/Breadcrumbs.php:90 template/front/privacy-index.phtml:13
-#: template/front/profile-sidebar.phtml:127
+#: template/front/profile-sidebar.phtml:128
 msgid "Privacy"
 msgstr "Confidentialité"
 
 #: src/Api/Breadcrumbs.php:105 src/Controller/Front/PasswordController.php:192
 #: template/front/password-index.phtml:17
-#: template/front/profile-sidebar.phtml:111
+#: template/front/profile-sidebar.phtml:112
 msgid "Change password"
 msgstr "Modifier le mot de passe"
 
@@ -1166,7 +1166,7 @@ msgstr "Mes éléments"
 #: template/front/dashboard-index.phtml:97
 #: template/front/dashboardPro-index.phtml:87
 #: template/front/dashboardPro-index.phtml:91
-#: template/front/profile-sidebar.phtml:325
+#: template/front/profile-sidebar.phtml:326
 msgid "Sponsorship"
 msgstr "Parrainage"
 
@@ -1246,12 +1246,12 @@ msgid "Welcome to your pro dashboard"
 msgstr "Bienvenue dans votre espace professionnel"
 
 #: template/front/dashboardPro-index.phtml:210
-msgid "Add<br>commercial"
-msgstr "Ajouter<br>une activité"
+msgid "Add<br>your business"
+msgstr "Ajoutez<br>votre activité Pro"
 
 #: template/front/dashboardPro-index.phtml:219
-msgid "Promote<br>your businesses"
-msgstr "Promouvoir<br>mes activités"
+msgid "Discover<br>our solutions"
+msgstr "Découvrez<br>nos offres/solutions"
 
 #: template/front/dashboardPro-index.phtml:246
 msgid "To begin, let's create your first establishment :)"
@@ -1366,152 +1366,152 @@ msgstr "Mettre à jour"
 msgid "Add %s"
 msgstr "Ajouter %s"
 
-#: template/front/profile-sidebar.phtml:37
+#: template/front/profile-sidebar.phtml:38
 msgid "Perso"
 msgstr "Perso"
 
-#: template/front/profile-sidebar.phtml:39
+#: template/front/profile-sidebar.phtml:40
 msgid "Pro"
 msgstr "Pro"
 
-#: template/front/profile-sidebar.phtml:48
+#: template/front/profile-sidebar.phtml:49
 msgid "Personal Dashboard"
 msgstr "Tableau de Bord Perso"
 
-#: template/front/profile-sidebar.phtml:54
+#: template/front/profile-sidebar.phtml:55
 msgid "Bookings"
 msgstr "Réservations"
 
-#: template/front/profile-sidebar.phtml:62
+#: template/front/profile-sidebar.phtml:63
 msgid "Contributions"
 msgstr "Contributions"
 
-#: template/front/profile-sidebar.phtml:71
+#: template/front/profile-sidebar.phtml:72
 msgid "Favorites"
 msgstr "Favoris"
 
-#: template/front/profile-sidebar.phtml:79
+#: template/front/profile-sidebar.phtml:80
 msgid "Reviews/comments"
 msgstr "Avis/commentaires"
 
-#: template/front/profile-sidebar.phtml:87
-#: template/front/profile-sidebar.phtml:389
+#: template/front/profile-sidebar.phtml:88
+#: template/front/profile-sidebar.phtml:390
 msgid "My Media"
 msgstr "Mes Médias"
 
-#: template/front/profile-sidebar.phtml:96
+#: template/front/profile-sidebar.phtml:97
 msgid "My account"
 msgstr "Mon compte"
 
-#: template/front/profile-sidebar.phtml:102
+#: template/front/profile-sidebar.phtml:103
 msgid "Manage account"
 msgstr "Gérer mon compte"
 
-#: template/front/profile-sidebar.phtml:140
+#: template/front/profile-sidebar.phtml:141
 msgid "Pro Dashboard"
 msgstr "Tableau de Bord Pro"
 
-#: template/front/profile-sidebar.phtml:147
+#: template/front/profile-sidebar.phtml:148
 msgid "Manage my activities"
 msgstr "Gérer mes activités"
 
-#: template/front/profile-sidebar.phtml:161
+#: template/front/profile-sidebar.phtml:162
 msgid "Choose an activity"
 msgstr "Choisir une activité"
 
-#: template/front/profile-sidebar.phtml:186
+#: template/front/profile-sidebar.phtml:187
 msgid "Summary"
 msgstr "Résumé"
 
-#: template/front/profile-sidebar.phtml:201
+#: template/front/profile-sidebar.phtml:202
 msgid "FAST ACTIONS"
 msgstr "ACTIONS RAPIDES"
 
-#: template/front/profile-sidebar.phtml:209
+#: template/front/profile-sidebar.phtml:210
 msgid "Management Grids"
 msgstr "Grilles de Gestion"
 
-#: template/front/profile-sidebar.phtml:215
+#: template/front/profile-sidebar.phtml:216
 msgid "Bookings/Closings"
 msgstr "Résas/Fermetures"
 
-#: template/front/profile-sidebar.phtml:223
+#: template/front/profile-sidebar.phtml:224
 msgid "Boost"
 msgstr "Boost"
 
-#: template/front/profile-sidebar.phtml:230
+#: template/front/profile-sidebar.phtml:231
 msgid "Statistics"
 msgstr "Statistiques"
 
-#: template/front/profile-sidebar.phtml:246
+#: template/front/profile-sidebar.phtml:247
 msgid "CONFIGURATION"
 msgstr "CONFIGURATION"
 
-#: template/front/profile-sidebar.phtml:253
+#: template/front/profile-sidebar.phtml:254
 msgid "Description"
 msgstr "Description"
 
-#: template/front/profile-sidebar.phtml:259
+#: template/front/profile-sidebar.phtml:260
 msgid "Products/Prices"
 msgstr "Produits/Tarifs"
 
-#: template/front/profile-sidebar.phtml:266
+#: template/front/profile-sidebar.phtml:267
 msgid "Opening hours"
 msgstr "Horaires ouverture"
 
-#: template/front/profile-sidebar.phtml:272
+#: template/front/profile-sidebar.phtml:273
 msgid "Policies"
 msgstr "Conditions générales"
 
-#: template/front/profile-sidebar.phtml:278
+#: template/front/profile-sidebar.phtml:279
 msgid "Payment"
 msgstr "Paiement"
 
-#: template/front/profile-sidebar.phtml:284
+#: template/front/profile-sidebar.phtml:285
 msgid "Deals/Special Offers"
 msgstr "Promos/Offres Spéciales"
 
-#: template/front/profile-sidebar.phtml:296
+#: template/front/profile-sidebar.phtml:297
 msgid "DISTRIBUTION"
 msgstr "DISTRIBUTION"
 
-#: template/front/profile-sidebar.phtml:303
+#: template/front/profile-sidebar.phtml:304
 msgid "Widget"
 msgstr "Widget"
 
-#: template/front/profile-sidebar.phtml:308
+#: template/front/profile-sidebar.phtml:309
 msgid "Events"
 msgstr "Evènements"
 
-#: template/front/profile-sidebar.phtml:313
+#: template/front/profile-sidebar.phtml:314
 msgid "Sales Channels (Soon)"
 msgstr "Canaux Vente (bientôt)"
 
-#: template/front/profile-sidebar.phtml:332
+#: template/front/profile-sidebar.phtml:333
 msgid "My statistics"
 msgstr "Mes Statistiques"
 
-#: template/front/profile-sidebar.phtml:340
+#: template/front/profile-sidebar.phtml:341
 msgid "Messages"
 msgstr "Messages"
 
-#: template/front/profile-sidebar.phtml:347
+#: template/front/profile-sidebar.phtml:348
 msgid "Notifications"
 msgstr "Notifications"
 
-#: template/front/profile-sidebar.phtml:356
+#: template/front/profile-sidebar.phtml:357
 msgid "Support tickets"
 msgstr "Tickets Assistance"
 
-#: template/front/profile-sidebar.phtml:364
+#: template/front/profile-sidebar.phtml:365
 msgid "Orders"
 msgstr "Commandes"
 
-#: template/front/profile-sidebar.phtml:372
+#: template/front/profile-sidebar.phtml:373
 msgid "Credit"
 msgstr "Crédits"
 
-#: template/front/profile-sidebar.phtml:381
+#: template/front/profile-sidebar.phtml:382
 msgid "Videos"
 msgstr "Vidéos"
 
@@ -1647,6 +1647,9 @@ msgstr "Demandez le renvoi du mail d'activation"
 #: template/front/register-index.phtml:182
 msgid "Already sent"
 msgstr "Déja envoyé"
+
+#~ msgid "Add<br>commercial"
+#~ msgstr "Ajouter<br>une activité"
 
 #~ msgid "Grid Manager"
 #~ msgstr "Grille Gestion"

@@ -1,6 +1,10 @@
 
 jQuery/jQueryUI changelog
 
+July 16th, 2020
+===============
+1. Upgrade jQuery to 3.5.1
+
 May 10th, 2019
 ===============
 1. Upgrade jQuery to 3.4.1

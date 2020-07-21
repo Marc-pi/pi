@@ -691,7 +691,6 @@ class ViewStrategyListener extends AbstractListenerAggregate
         // Default as regular request
         $this->type = '';
 
-
         $request = $e->getRequest();
         // AJAX
         if ($request->isXmlHttpRequest()) {
@@ -699,36 +698,6 @@ class ViewStrategyListener extends AbstractListenerAggregate
             // Flash
         } elseif ($request->isFlashRequest()) {
             $this->type = 'flash';
-        }
-
-        $headers = $request->getHeaders();
-        if (!$headers->has('accept')) {
-            return $this->type;
-        }
-        $accept = $headers->get('Accept');
-
-        // Json
-        if (($match = $accept->match(
-                'application/json, application/javascript'
-            )) != false
-        ) {
-            $typeString = $match->getTypeString();
-            if ('application/json' == $typeString
-                || 'application/javascript' == $typeString
-            ) {
-                $this->type = 'json';
-            }
-            // Feed
-        } elseif (($match = $accept->match(
-                'application/rss+xml, application/atom+xml'
-            )) != false
-        ) {
-            $typeString = $match->getTypeString();
-            if ('application/rss+xml' == $typeString
-                || 'application/atom+xml' == $typeString
-            ) {
-                $this->type = 'feed';
-            }
         }
 
         return $this->type;
@@ -742,10 +711,6 @@ class ViewStrategyListener extends AbstractListenerAggregate
      */
     protected function skipThemeAssemble(MvcEvent $e)
     {
-        // Skip for AJAX/Flash/Json/Feed
-        if ($this->type) {
-            return true;
-        }
         // Skip if response is already generated
         if ($e->getResult() instanceof Response) {
             return true;

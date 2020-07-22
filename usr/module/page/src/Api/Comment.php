@@ -77,5 +77,9 @@ class Comment extends AbstractComment
             'title' => $row->title,
         );
     }
-    
+
+    public function getItem($item)
+    {
+
+    }
 }

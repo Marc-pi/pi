@@ -1,5 +1,9 @@
 Changelog
 
+July, 22h, 2020 Marc-pi
+======================
+1. Update to Fontawesome 5.14.0
+
 July, 16th, 2020 Marc-pi
 ======================
 1. Update to Bootstrap 4.5.0

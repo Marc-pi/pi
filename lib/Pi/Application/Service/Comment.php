@@ -125,14 +125,15 @@ class Comment extends AbstractService
 <script>
     $( document ).ready(function() {
 
-        $.getJSON("{$callback}", {
+        $.get("{$callback}", {
             uri: $(location).attr('href'),
             time: new Date().getTime()
         })
         .done(function (data) {
-            if (data.content) {
+
+            if (data) {
                 var el = $('.pi-comment-lead-$rand');
-                el.attr('class','show pi-comment-lead').html(data.content);
+                el.attr('class','show pi-comment-lead').html(data);
             }
         });
     });
